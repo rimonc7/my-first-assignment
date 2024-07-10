@@ -236,3 +236,235 @@ header div img {
     margin: 10px 0px;
 
 }
+
+/* Target section */
+
+.target-sec {
+    width: 1140px;
+    height: 460px;
+    margin: 150px 150px 111px 150px;
+}
+
+.target-container {
+    text-align: center;
+    width: 946px;
+    height: 113px;
+    margin: 191px 95px 48px 99px;
+}
+
+.t-target {
+    font-size: 32px;
+    font-family: 800;
+    color: #0D1321;
+}
+
+.t-text {
+    font-size: 16px;
+    font-weight: normal;
+    color: #0D1321;
+    opacity: 0.7;
+    margin-left: 97px;
+    margin-right: 97px;
+}
+
+.t-box {
+    width: 852px;
+    height: 113px;
+    margin: 48px 0px;
+}
+
+.skill-container {
+    width: 1140px;
+    height: 299px;
+    display: flex;
+    gap: 24px;
+}
+
+.skill-box {
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+}
+
+.skill-subbox {
+    width: 284px;
+    height: 19px;
+    margin: 16px 0px;
+}
+
+.s-heading {
+    font-size: 24px;
+    font-weight: 800;
+    color: #0D1321;
+}
+
+.s-text {
+    font-size: 16px;
+    font-weight: normal;
+    color: #0D1321;
+    opacity: 0.7;
+}
+
+.s-link {
+    font-size: 16px;
+    font-weight: 700;
+    color: #0D1321;
+}
+
+.skill-box2 {
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    ;
+    padding: 40px;
+}
+
+.sec-support {
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), url(Email);
+    background-image: url(../assets/handshake.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 1140px;
+    height: 313px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.support-t {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.support-text {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.support-box {
+    width: 1044px;
+    height: 185px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 32px 0px;
+}
+
+.support-subbox {
+    width: 730px;
+    height: 104px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: none;
+    flex-grow: 0;
+    margin: 24px 0px;
+}
+
+.support-input {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 548px;
+    height: 57px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 19px 20px 19px 20px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+
+.submit-btn {
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 120px;
+    height: 57px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 20px 17px 20px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 16px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.support-form {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.sec-footer {
+    width: 1440px;
+    height: 100px;
+    top: 5145px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 32px 150px 32px 150px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    margin-top: 80px;
+}
+
+.social-icons {
+    text-decoration: none;
+}
+
+.footer-container {
+    position: static;
+    width: 1140px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 32px 0px;
+}
+
+.footer-text {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+}
