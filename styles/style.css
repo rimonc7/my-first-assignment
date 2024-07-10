@@ -1,0 +1,164 @@
+.azeret-mono-normal {
+
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* universal style */
+
+/* Nav Style */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+/* nav ul {
+    display: flex;
+} */
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: #0D1321;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    width: 196px;
+    height: 23px;
+}
+
+.btn-container {
+    border: #0D1321 solid 2px;
+    background-color: white;
+    width: 244px;
+    height: 57px;
+    border-radius: 8px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    gap: 10px;
+    padding: 17px 24px;
+}
+
+/* banner style */
+
+header div img{
+    width: 240px;
+    height: 240px;
+}
+.banner-main{
+    background-image: url(../assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-position: center;
+    margin-top: 48px;
+    margin-bottom: 74px;
+    height: 652px;
+}
+.banner-container{
+    text-align: center;
+    width: 998px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner-title{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.banner-text{
+    width: 852px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.banner-btn{
+    background-color: #0D1321;
+    height: 65px;
+    width: 244px;
+    border-radius: 8px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    border: none;
+    margin-top:45px;
+}
+
+.banner-link{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+/* main content */
+.sec-main{
+    width: 1140px;
+    margin-left: 148px;
+    margin-right: 152PX;
+    background-color: rgba(13, 19, 33, 0.02);
+}
+.sec-head{
+    text-align: center;
+    gap: 24px;
+    margin: 141PX 144PX 48PX 144PX;
+}
+.section-title{
+    font-size: 32PX;
+    font-weight: bolder;
+    color: #0D1321;
+    
+}
+.section-text{
+    font-size: 16PX;
+    font-weight: normal;
+    text-align: center;
+}
+
+.content-container{
+    width: 946px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 48px;
+    background-color: #FFFFFF;
+}
+.content-box{
+margin-left: 97px;
+margin-right: 97px;
+}
+
+.b-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0D1321;
+}
+
+.b-text{
+    font-size: 16px;
+    font-weight: normal;
+    color: #0D1321;
+}
+
+.b-btn{
+    width: 171px;
+    height: 47px;
+    background-color: #FFFFFF;
+    border: #0D1321 1px solid;
+    padding: 12px 20px 12px 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.b-btn a{
+    text-decoration: none;
+    color: #0D1321;
+}
+
+.image-box{
+    width: 240px;
+    height: 274px;
+}
