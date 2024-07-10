@@ -100,11 +100,13 @@ header div img{
     margin-left: 148px;
     margin-right: 152PX;
     background-color: rgba(13, 19, 33, 0.02);
+    border-radius: 16px;
 }
 .sec-head{
     text-align: center;
     gap: 24px;
     margin: 141PX 144PX 48PX 144PX;
+    padding-top: 80px;
 }
 .section-title{
     font-size: 32PX;
@@ -124,7 +126,14 @@ header div img{
     justify-content: space-between;
     align-items: center;
     margin: 48px;
+}
+.c-box{
     background-color: #FFFFFF;
+    border-radius:16px 0px 0px 16px;
+    width: 477px;
+    height: 219px;
+    padding:40px 0px 10px 50px;
+    gap: 32px;
 }
 .content-box{
 margin-left: 97px;
@@ -161,4 +170,5 @@ margin-right: 97px;
 .image-box{
     width: 240px;
     height: 274px;
+    margin-right: 80px;
 }
