@@ -468,3 +468,7 @@ header div img {
     line-height: 23px;
     text-align: center;
 }
+
+footer div a{
+    text-decoration: none;
+}
